@@ -4,73 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/luxyloomliving/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
 </head>
 <body>
-    <header>
-        <nav>
-        <img src="logo.png"  style="width: 100px; height: 100px;"
-        alt="logo"/> 
-            <div class="nav-links" id="navlinks">
-                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="#" target="_blank">Home</a></li>
-                    <li><a href="#" target="_blank">About </a></li>
-                    <li><a href="#" target="_blank">Gallery</a></li>
-                    <li><a href="#" target="_blank">Contacts</a></li>
-                    <!-- <img src="sidebar.png" alt="sidebar"/> -->
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav> 
-    </header>
+  <header>
+    <div class="logo">
+  <img src="Images/logo.png"  style="width: 100px; height: 100px;"
+   alt="logo"/> 
+   </div>
+    <nav>
+        <div class="nav-links" id="navlinks">
+            <!-- <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> -->
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html"target="_blank">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/about.html" target="_blank">About </a></li>
+                <li><a href="http://127.0.0.1:5500/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="http://127.0.0.1:5500/contacts.html" target="_blank">Contacts</a></li>
+            </ul>
+        </div>
+    </nav> 
+</header>
 
 <!-- carousel -->
-
+<div id="hero-carousel" class="carousel slide" data-bs-slide="carousel">
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#hero-carousel"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#hero-carousel"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#hero-carousel"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="Images/livingset.png" class="d-block w-100 c-img" alt="Slide 1" />
+        <div class="carousel-caption d-none d-md-block">
+          <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: #FBF7F0;"> WHERE COMFORT MEETS LUXURY!</h1>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="Images/diningset.png" class="d-block w-100 c-img" alt="Slide 2" />
+      </div>
+      <div class="carousel-item c-item">
+        <img src="Images/bed.jpg" class="d-block w-100 c-img" alt="Slide 3" />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#hero-carousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#hero-carousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 <!-- end of carousel -->
 
-    <!-- footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>Contact Us</h4>
-                    <ul>
-                        <li><a href="">FAQs</a></li>
-                        <li><a href=""> Terms of Use</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Affiliate program</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Get help</h4>
-                    <ul>
-                        <li><a href="">Help Center</a></li>
-                        <li><a href="">Support Portal</a></li>
-                        <li><a href="">Service Notices</a></li>
-                        <li><a href="">Partner Directory</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Take Action</h4>
-                    <ul>
-                        <li><a href="">Volunteer</a></li>
-                        <li><a href="">Donate & Sponsor</a></li>
-                        <li><a href="">Partner with us</a></li>
-                        <li><a href=""></a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Follow us</h4>
-                    <div class="social-links">
-                        <a href=""><i class='bx bxl-facebook-circle'></i></a>
-                        <a href=""><i class='bx bxl-youtube'></i></a>
-                        <a href=""><i class='bx bxl-twitter'></i></a>
-                        <a href=""><i class='bx bxl-gmail'></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+
+<div class="featuredphotos">
+  <h2 style="padding: 50px;font-family: 'Times New Roman', Times, serif; font-size: bolder;">"The design of your furniture reflects the design of your life. Choose pieces that inspire creativity and promote relaxation."</h2>
+ <ul>
+    <img src="Images/diningset.png" alt=""/>
+    <img src="Images/livingset.png" alt=""/>
+    <img src="Images/bed.jpg" alt="Beach"/>
+    <img src="Images/DiningSet.webp" alt=""/>
+    
+    
+</ul>
+</div>
+
+<footer>
+  <div class="footer-content">
+      <div class="contact-info">
+<h3>Contact Information</h3>
+<p>Email: info@luxeloomliving.com</p>
+<p>Phone: +1 (123) 456-7890</p>
+</div>
+<div class="social-media">
+<h3>Social Media</h3>
+<ul>
+    <li><a href="#"><img src="Images/facebook.png" alt="Facebook"></a></li>
+    <li><a href="#"><img src="Images/twitter.png" alt="Twitter"></a></li>
+    <li><a href="#"><img src="Images/instagram.png" alt="Instagram"></a></li>
+</ul>
+</div>
+<div class="links">
+<h3>Quick Links</h3>
+<ul>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms and Conditions</a></li>
+    <li><a href="#">Return Policy</a></li>
+</ul>
+</div>
+<div class="newsletter">
+<h3>Newsletter Signup</h3>
+<form id="newsletter-form">
+    <input type="email" placeholder="Enter your email">
+    <button type="submit">Subscribe</button>
+</form>
+</div>
+</div>
+</footer>
+  </body>
 </html>
