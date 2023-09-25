@@ -178,7 +178,23 @@
         max-height: 43px;
         border-radius: 50%;
     }
+    
     .fa-trash:hover{
         cursor: pointer;
         color: #333;
+    }
+
+    .foot .btn{
+        width: 50%;
+        position: relative;
+        border: none;
+        border-radius: 5px;
+        background-color: goldenrod;
+        padding: 7px 25px;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .foot .btn:hover{
+        background-color: #333;
     }
