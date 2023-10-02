@@ -75,7 +75,7 @@ header{
     width: 20px;
     padding-right: 30px;
   }
- 
+
 
   .c-item{
     height: 620px;
@@ -85,6 +85,8 @@ header{
     object-fit: cover;
     filter: brightness(0.4);
 }
+
+
 
 button{
   border: none;
