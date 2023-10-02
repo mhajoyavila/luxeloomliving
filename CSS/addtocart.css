@@ -16,7 +16,7 @@
     .header{
         height: 80px;
         width: 70%;
-        background-color: goldenrod;
+        background-color: #7c5f4a;
         border-radius: 3px;
         margin: 30px 0px;
         display: flex;
@@ -42,7 +42,7 @@
     }
     
     .fa-solid{
-        color: goldenrod;
+        color: #7c5f4a;
     }
     
     .cart p{
@@ -52,7 +52,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 22px;
-        background-color: goldenrod;
+        background-color: #7c5f4a;
         color: white;
     }
     
@@ -79,7 +79,7 @@
     }
     
     .head{
-        background-color: goldenrod;
+        background-color: #7c5f4a;
         border-radius: 3px;
         height: 40px;
         padding: 10px;
@@ -102,7 +102,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        border: 1px solid goldenrod;
+        border: 1px solid #7c5f4a;
         border-radius: 5px;
         padding: 15px;
     }
@@ -142,14 +142,14 @@
         position: relative;
         border: none;
         border-radius: 5px;
-        background-color: goldenrod;
+        background-color: black;
         padding: 7px 25px;
         cursor: pointer;
         color: white;
     }
     
     .bottom1 button:hover{
-        background-color: #333;
+        background-color: #7c5f4a;
     }
     
     .cart-item{
@@ -167,7 +167,7 @@
         width: 50px;
         height: 50px;
         border-radius: 50px;
-        border: 1px solid goldenrod;
+        border: 1px solid #7c5f4a;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -189,12 +189,12 @@
         position: relative;
         border: none;
         border-radius: 5px;
-        background-color: goldenrod;
+        background-color: black;
         padding: 7px 25px;
         cursor: pointer;
         color: white;
     }
     
     .foot .btn:hover{
-        background-color: #333;
+        background-color: #7c5f4a;
     }

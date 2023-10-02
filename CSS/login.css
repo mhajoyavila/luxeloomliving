@@ -12,18 +12,18 @@
     transform: translate(-50%, -50%);
     width: 75%;
     height: 550px;
-    background: url(DiningSet.webp) no-repeat;
+    background: url(/Images/livingset.png) no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
     margin-top: 20px;
-    /* filter: brightness(0.8); */
+    filter: brightness(0.8); 
 }
 
 .background{
     width: 100%;
     height: 100vh;
-    background: url(DiningSet.webp) no-repeat;
+    background: url(/Images/livingset.png) no-repeat;
     background-size: cover;
     background-position: center;
     filter: blur(10px);
@@ -48,12 +48,16 @@
 }
 
 .text-sci h2{
-    font-size: 40px;
+    font-size: 6cqmax;
+    color: rgb(0, 0, 0);
 }
 
 .text-sci p{
-    font-size: 16px;
+    font-size: 20px;
     margin: 20px 0;
+    color: rgb(0, 0, 0);
+    background-color:rgba(173, 157, 139, 0.655);
+    
 }
 
 .content h2 span{
@@ -216,4 +220,8 @@
 
 .login-register p a:hover{
     text-decoration: underline;
+}
+.logo{
+    width: 100px;
+    background-color: rgb(255, 255, 255);
 }

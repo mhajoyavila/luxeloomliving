@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
     <link
@@ -18,6 +16,13 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"
   ></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+
 </head>
 <body>
   <header>
@@ -30,13 +35,20 @@
             <!-- <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> -->
             <ul>
                 <li><a href="http://127.0.0.1:5500/index.html"target="_blank">Home</a></li>
-                <li><a href="http://127.0.0.1:5500/about.html" target="_blank">About </a></li>
-                <li><a href="http://127.0.0.1:5500/gallery.html" target="_blank">Gallery</a></li>
-                <li><a href="http://127.0.0.1:5500/contacts.html" target="_blank">Contacts</a></li>
+                <li><a href="http://127.0.0.1:5500/about.html" target="_blank">Products</a></li>
+                <li><a href="addtocart.html" target="_blank">Cart</a></li>
+                <li><a href="login.html" target="_blank">Login</a></li>
             </ul>
         </div>
     </nav> 
 </header>
+<!-- <div class="banner-card">
+  <img src="Images/livingset.png" alt="heroimg" id="hero"/>
+  <div class="banner-text">
+    <h4>WHERE COMFORT MEETS LUXURY!</h4>
+  </div>
+</div> -->
+
 
 <!-- carousel -->
 <div id="hero-carousel" class="carousel slide" data-bs-slide="carousel">
@@ -96,6 +108,1815 @@
     </button>
   </div>
 <!-- end of carousel -->
+
+
+
+<div class="parallax-section1">
+  <div class="container"></div>
+</div>
+
+<!-- MOST LOVE CAKES -->
+<div class="treat-section d-flex align-items-center justify-content-center">
+  <div class="container text-center">
+    <div class="row justify-content-center align-items-center">
+      <h1>Best Sellers</h1>
+      <div class="col col-sm-12 col-md-6 col-lg-3 mb-4 mt-5">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          <div class="image-content-wrap">
+            <img src="Images/bed.jpg" alt="Rocky Road" />
+          </div>
+        </a>
+        <p style="font-weight: bold"></p>
+        <p></p>
+        <p>₱1,299</p>
+
+        <!-- start of modal -->
+        <div
+          class="modal fade"
+          id="exampleModal2"
+          tabindex="-1"
+          aria-labelledby="exampleModal2Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4 col-sm-12 col-md-12 col-lg-6">
+                      <div class="image-wrap">
+                        <img src="./images/Rockyroad.jpg" />
+                      </div>
+
+                      <div class="additional-content mt-5 mb-5">
+                        <!-- ACCORDIAN -->
+                        <p style="text-align: left; font-weight: bold">
+                          Frequently Ask Questions
+                        </p>
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne"
+                              >
+                                Product Description
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseOne"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <p>
+                                  Chocolate and marshmallows? Don't mind if
+                                  we do! Relive your childhood with a
+                                  delicious combination - a rich and moist
+                                  chocolate cake loaded with marshmallows,
+                                  nuts, and creamy chocolate ganache! Sounds
+                                  like a trip down the nostalgia lane!
+                                </p>
+                                <p style="font-weight: bold">Ingredients</p>
+                                <p>
+                                  Eggs, Sugar, Flour, Milk, Oil, Chocolate,
+                                  Cocoa, Cream, marshmallows, Peanuts, and
+                                  Vanilla Bean Extract
+                                </p>
+                                <p style="font-weight: bold">Allergens</p>
+                                <p>Dairy, Eggs, Wheat, Nuts</p>
+                                <p style="font-weight: bold">
+                                  Weight & Dimensions
+                                </p>
+                                <p>4kg - 10"x 4"</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo"
+                              >
+                                Where Do You Deliver to?
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseTwo"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                We deliver throuout Metro Manila
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree"
+                              >
+                                How Much Is The Delivery Fee
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseThree"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                Delivery Fee will be displayed at the
+                                checkout step.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- start of content sa modal -->
+                    <div class="col-8 col-sm-12 col-md-12 col-lg-6">
+                      <div class="image-content">
+                        <p style="font-weight: bold">ROCKY ROAD</p>
+                        <hr class="my-hr" />
+
+                        <div class="sched">
+                          <div
+                            class="container overflow-hidden text-center"
+                          >
+                            <p>SELECT DELIVERY DATE</p>
+                            <div class="row gx-2 gx-md-3 gx-lg-4">
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <!-- Use column classes to control the button size and flex utilities for alignment -->
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Today
+                                </button>
+                              </div>
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Tomorrow
+                                </button>
+                              </div>
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Set a Schedule
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <hr class="my-hr" />
+                      </div>
+                      <!-- set date -->
+                      <div class="sched">
+                        <div class="container overflow-hidden">
+                          <p>SELECT DELIVERY TIME</p>
+                          <div class="row gx-2 gx-md-3 gx-lg-4">
+                            <div
+                              class="col-6 col-md-6 col-lg-3 d-flex justify-content-start"
+                            >
+                              <!-- Use column classes to control the button size and flex utilities for alignment -->
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                10 AM - 12 PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                1 PM -3 PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 mt-2 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                3 PM - 5PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 mt-2 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                3 PM - 5PM
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-hr" />
+
+                      <div class="sched">
+                        <div class="d-flex">
+                          <div class="container overflow-hidden">
+                            <p>QUANTITY</p>
+                            <div class="row">
+                              <div
+                                class="col-6 col-md-6 col-lg-6 d-flex justify-content-start"
+                              >
+                                <input
+                                  type="number"
+                                  id="quantity"
+                                  name="quantity"
+                                  class="custom-input"
+                                  min="1"
+                                  max="5"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="container overflow-hidden">
+                            <p>CANDLES</p>
+                            <div class="row">
+                              <div
+                                class="col-6 col-md-6 col-lg-6 d-flex justify-content-start"
+                              >
+                                <input
+                                  type="number"
+                                  id="candles"
+                                  name="candles"
+                                  class="custom-input"
+                                  min="1"
+                                  max="10"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-hr" />
+
+                      <!-- MESSAGE -->
+                      <div class="sched">
+                        <div class="container overflow-hidden">
+                          <div
+                            class="message-title d-flex justify-content-between"
+                          >
+                            <p>CARD MESSAGE</p>
+                            <p>
+                              [ MAX. 250 WORDS | INCLUDE RECIPIENT’S NAME ]
+                            </p>
+                          </div>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                  <textarea
+                                    class="form-control"
+                                    id="exampleFormControlTextarea1"
+                                    rows="3"
+                                  ></textarea>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-12 col-lg-12">
+                            <button
+                              type="submit"
+                              id="submit"
+                              class="btn btn-block submit-button mt-4"
+                            >
+                              ADD TO CART
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn close-button"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn save-button">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SECOND PICURE -->
+      <div class="col col-sm-12 col-md-6 col-lg-3 mb-4 mt-5">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+          <div class="image-content-wrap">
+            <img
+              src="Images/DiningSet.webp"
+              alt="Rocky Road"
+            />
+          </div>
+        </a>
+        <p style="font-weight: bold">Nutella Ferrero Rocher Cake</p>
+        <p>Amelia's Patisserie</p>
+        <p>₱2,359</p>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal3"
+          tabindex="-1"
+          aria-labelledby="exampleModal3Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4 col-sm-12 col-md-12 col-lg-6">
+                      <div class="image-wrap">
+                        <img src="./images/AP_NutellaFerreroCake.jpg" />
+                      </div>
+
+                      <div class="additional-content mt-5 mb-5">
+                        <!-- ACCORDIAN -->
+                        <p style="text-align: left; font-weight: bolder">
+                          Frequently Ask Questions
+                        </p>
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne"
+                              >
+                                Product Description
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseOne"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <p>
+                                  Indulge in rich decadence like never
+                                  before - with a medley of creamy Nutella
+                                  buttercream, paired with the irresistible
+                                  melange of roasted hazelnuts, Belgian
+                                  chocolate ganache, and Ferrero Rocher
+                                  brought to you in a moist chocolate cake!
+                                  What better reason to go nuts for some
+                                  cocoa, than this luxurious bake?
+                                </p>
+                                <p style="font-weight: bold">Ingredients</p>
+                                <p>
+                                  Cocoa Powder, Sugar, Flour, Water, Oil,
+                                  Butter, Nutella, Vanilla, Cream,
+                                  Hazelnuts, Chocolate
+                                </p>
+                                <p style="font-weight: bold">Allergens</p>
+                                <p>Hazelnuts</p>
+                                <p style="font-weight: bold">
+                                  Weight & Dimensions
+                                </p>
+                                <p>1.34 kg, 6" x 5.5"</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo"
+                              >
+                                Where Do You Deliver to?
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseTwo"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                We deliver throuout Metro Manila
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree"
+                              >
+                                How Much Is The Delivery Fee
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseThree"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                Delivery Fee will be displayed at the
+                                checkout step.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- start of content sa modal -->
+                    <div class="col-8 col-sm-12 col-md-12 col-lg-6">
+                      <div class="image-content">
+                        <p style="font-weight: bold">
+                          NUTELLA FERRERO ROCHER CAKE
+                        </p>
+                        <hr class="my-hr" />
+
+                        <div class="sched">
+                          <div
+                            class="container overflow-hidden text-center"
+                          >
+                            <p>SELECT DELIVERY DATE</p>
+                            <div class="row gx-2 gx-md-3 gx-lg-4">
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <!-- Use column classes to control the button size and flex utilities for alignment -->
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Today
+                                </button>
+                              </div>
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Tomorrow
+                                </button>
+                              </div>
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Set a Schedule
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <hr class="my-hr" />
+                      </div>
+                      <!-- set date -->
+                      <div class="sched">
+                        <div class="container overflow-hidden">
+                          <p>SELECT DELIVERY TIME</p>
+                          <div class="row gx-2 gx-md-3 gx-lg-4">
+                            <div
+                              class="col-6 col-md-6 col-lg-3 d-flex justify-content-start"
+                            >
+                              <!-- Use column classes to control the button size and flex utilities for alignment -->
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                10 AM - 12 PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                1 PM -3 PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 mt-2 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                3 PM - 5PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 mt-2 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                3 PM - 5PM
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-hr" />
+
+                      <div class="sched">
+                        <div class="d-flex">
+                          <div class="container overflow-hidden">
+                            <p>QUANTITY</p>
+                            <div class="row">
+                              <div
+                                class="col-6 col-md-6 col-lg-6 d-flex justify-content-start"
+                              >
+                                <input
+                                  type="number"
+                                  id="quantity"
+                                  name="quantity"
+                                  class="custom-input"
+                                  min="1"
+                                  max="5"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="container overflow-hidden">
+                            <p>CANDLES</p>
+                            <div class="row">
+                              <div
+                                class="col-6 col-md-6 col-lg-6 d-flex justify-content-start"
+                              >
+                                <input
+                                  type="number"
+                                  id="candles"
+                                  name="candles"
+                                  class="custom-input"
+                                  min="1"
+                                  max="10"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-hr" />
+
+                      <!-- MESSAGE -->
+                      <div class="sched">
+                        <div class="container overflow-hidden">
+                          <div
+                            class="message-title d-flex justify-content-between"
+                          >
+                            <p>CARD MESSAGE</p>
+                            <p>
+                              [ MAX. 250 WORDS | INCLUDE RECIPIENT’S NAME ]
+                            </p>
+                          </div>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                  <textarea
+                                    class="form-control"
+                                    id="exampleFormControlTextarea1"
+                                    rows="3"
+                                  ></textarea>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-12 col-lg-12">
+                            <button
+                              type="submit"
+                              id="submit"
+                              class="btn btn-block submit-button mt-4"
+                            >
+                              ADD TO CART
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn close-button"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn save-button">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- THIRD PICTURE -->
+      <div class="col col-sm-12 col-md-6 col-lg-3 mb-4 mt-5">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+          <div class="image-content-wrap">
+            <img src="Images/livingset.png" alt="Rocky Road" />
+          </div>
+        </a>
+        <p style="font-weight: bold">
+          Vegan Strawberry Cupcakes (Box of 6)
+        </p>
+        <p>Amelia's Patisserie</p>
+        <p>₱849.00</p>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal7"
+          tabindex="-1"
+          aria-labelledby="exampleModal7Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4 col-sm-12 col-md-12 col-lg-6">
+                      <div class="image-wrap">
+                        <img src="./images/AJMangoCake1.jpg" />
+                      </div>
+
+                      <div class="additional-content mt-5 mb-5">
+                        <!-- ACCORDIAN -->
+                        <p style="text-align: left; font-weight: bolder">
+                          Frequently Ask Questions
+                        </p>
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne"
+                              >
+                                Product Description
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseOne"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <p>
+                                  Vegan deliciousness? Yes We Can! Our 100%
+                                  Vegan Chocolate and Strawberry Cake serves
+                                  up the sweetness with a deliciously moist
+                                  chocolate base, topped off with
+                                  plant-based cream, and a generous serving
+                                  of fresh strawberries. So marvellously
+                                  luxurious - even your non-vegan buddies
+                                  won't be able to resist!
+                                </p>
+
+                                <p style="font-weight: bold">Ingredients</p>
+                                <p>
+                                  Cocoa Powder, Sugar, Flour, Water, Oil,
+                                  Plant-Based Cream, Strawberries
+                                </p>
+
+                                <p style="font-weight: bold">Allergens</p>
+                                <p>N/A</p>
+                                <p style="font-weight: bold">
+                                  Weight & Dimensions
+                                </p>
+                                <p>6" x 4"</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo"
+                              >
+                                Where Do You Deliver to?
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseTwo"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                We deliver throuout Metro Manila
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree"
+                              >
+                                How Much Is The Delivery Fee
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseThree"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                Delivery Fee will be displayed at the
+                                checkout step.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- start of content sa modal -->
+                    <div class="col-8 col-sm-12 col-md-12 col-lg-6">
+                      <div class="image-content">
+                        <p style="font-weight: bold">
+                          VEGAN CHOCOLATE STRAWBERRY CAKE
+                        </p>
+                        <hr class="my-hr" />
+
+                        <div class="sched">
+                          <div
+                            class="container overflow-hidden text-center"
+                          >
+                            <p>SELECT DELIVERY DATE</p>
+                            <div class="row gx-2 gx-md-3 gx-lg-4">
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <!-- Use column classes to control the button size and flex utilities for alignment -->
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Today
+                                </button>
+                              </div>
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Tomorrow
+                                </button>
+                              </div>
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Set a Schedule
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <hr class="my-hr" />
+                      </div>
+                      <!-- set date -->
+                      <div class="sched">
+                        <div class="container overflow-hidden">
+                          <p>SELECT DELIVERY TIME</p>
+                          <div class="row gx-2 gx-md-3 gx-lg-4">
+                            <div
+                              class="col-6 col-md-6 col-lg-3 d-flex justify-content-start"
+                            >
+                              <!-- Use column classes to control the button size and flex utilities for alignment -->
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                10 AM - 12 PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                1 PM -3 PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 mt-2 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                3 PM - 5PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 mt-2 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                3 PM - 5PM
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-hr" />
+
+                      <div class="sched">
+                        <div class="d-flex">
+                          <div class="container overflow-hidden">
+                            <p>QUANTITY</p>
+                            <div class="row">
+                              <div
+                                class="col-6 col-md-6 col-lg-6 d-flex justify-content-start"
+                              >
+                                <input
+                                  type="number"
+                                  id="quantity"
+                                  name="quantity"
+                                  class="custom-input"
+                                  min="1"
+                                  max="5"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="container overflow-hidden">
+                            <p>CANDLES</p>
+                            <div class="row">
+                              <div
+                                class="col-6 col-md-6 col-lg-6 d-flex justify-content-start"
+                              >
+                                <input
+                                  type="number"
+                                  id="candles"
+                                  name="candles"
+                                  class="custom-input"
+                                  min="1"
+                                  max="10"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-hr" />
+
+                      <!-- MESSAGE -->
+                      <div class="sched">
+                        <div class="container overflow-hidden">
+                          <div
+                            class="message-title d-flex justify-content-between"
+                          >
+                            <p>CARD MESSAGE</p>
+                            <p>
+                              [ MAX. 250 WORDS | INCLUDE RECIPIENT’S NAME ]
+                            </p>
+                          </div>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                  <textarea
+                                    class="form-control"
+                                    id="exampleFormControlTextarea1"
+                                    rows="3"
+                                  ></textarea>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-12 col-lg-12">
+                            <button
+                              type="submit"
+                              id="submit"
+                              class="btn btn-block submit-button mt-4"
+                            >
+                              ADD TO CART
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn close-button"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn save-button">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOURTH PICTURE -->
+      <div class="col col-sm-12 col-md-6 col-lg-3 mb-4 mt-5">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+          <div class="image-content-wrap">
+            <img src="Images/livingset.png" alt="Rocky Road" />
+          </div>
+        </a>
+        <p style="font-weight: bold">Minimalist Custom Cake</p>
+        <p>Amelia's Patisserie</p>
+        <p>₱790.00</p>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal4"
+          tabindex="-1"
+          aria-labelledby="exampleModal4Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4 col-sm-12 col-md-12 col-lg-6">
+                      <div class="image-wrapper">
+                        <img src="./images/SK-MinimalistCake.jpg" />
+                      </div>
+
+                      <div class="additional-content mt-5 mb-5">
+                        <!-- ACCORDIAN -->
+                        <p style="text-align: left; font-weight: bolder">
+                          Frequently Ask Questions
+                        </p>
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne"
+                              >
+                                Product Description
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseOne"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <p>
+                                  A stunning aesthetic minimalist cake -
+                                  inspired by Korean artisan bakers.
+                                  Luxurious moist chocolate or ravishing red
+                                  velvet, topped off with luscious
+                                  buttercream - and touches of aesthetic
+                                  decor. Now that's what we call the perfect
+                                  cake - pretty delicious? Nope! Incredibly
+                                  delicious and pretty, too!
+                                </p>
+
+                                <p style="color: rgb(232, 47, 47)">
+                                  PLEASE NOTE: To add your custom message on
+                                  top of the cake, please type out your
+                                  message within the card message box
+                                  provided below. Please mention the message
+                                  within brackets, and indicate that the
+                                  message is for the cake. EXAMPLE: (Message
+                                  On Cake: Happy Birthday Bunso!)
+                                </p>
+                                <p style="font-weight: bold">Ingredients</p>
+                                <p>
+                                  <strong>Choco Moist Flavour:</strong>
+                                  flour, cocoa, baking powder, sugar, eggs,
+                                  milk, corn oil, marshmallow, powdered
+                                  sugar, food colour, butter, shortening
+                                </p>
+                                <p>
+                                  <strong> Red Velvet Flavour:</strong>
+                                  flour, cocoa, baking powder, sugar, eggs,
+                                  milk, corn oil, food colour, butter
+                                  shortening, marshmallow, powdered sugar
+                                </p>
+                                <p style="font-weight: bold">Allergens</p>
+                                <p>
+                                  dairy, eggs, food colour, wheat, gluten
+                                </p>
+                                <p style="font-weight: bold">
+                                  Weight & Dimensions
+                                </p>
+                                <p>500g, 7" x 3"</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo"
+                              >
+                                Where Do You Deliver to?
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseTwo"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                We deliver throuout Metro Manila
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree"
+                              >
+                                How Much Is The Delivery Fee
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseThree"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                Delivery Fee will be displayed at the
+                                checkout step.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- start of content sa modal -->
+                    <div class="col-8 col-sm-12 col-md-12 col-lg-6">
+                      <div class="image-content">
+                        <p style="font-weight: bold">
+                          MINIMALIST CUSTOM CAKE
+                        </p>
+                        <hr class="my-hr" />
+
+                        <div class="sched">
+                          <div
+                            class="container overflow-hidden text-center"
+                          >
+                            <p>SELECT DELIVERY DATE</p>
+                            <div class="row gx-2 gx-md-3 gx-lg-4">
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <!-- Use column classes to control the button size and flex utilities for alignment -->
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Today
+                                </button>
+                              </div>
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Tomorrow
+                                </button>
+                              </div>
+                              <div
+                                class="col-6 col-md-4 col-lg-3 d-flex justify-content-start"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn btn-lg btn-block cyan-button"
+                                >
+                                  Set a Schedule
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <hr class="my-hr" />
+                      </div>
+                      <!-- set date -->
+                      <div class="sched">
+                        <div class="container overflow-hidden">
+                          <p>SELECT DELIVERY TIME</p>
+                          <div class="row gx-2 gx-md-3 gx-lg-4">
+                            <div
+                              class="col-6 col-md-6 col-lg-3 d-flex justify-content-start"
+                            >
+                              <!-- Use column classes to control the button size and flex utilities for alignment -->
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                10 AM - 12 PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                1 PM -3 PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 mt-2 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                3 PM - 5PM
+                              </button>
+                            </div>
+                            <div
+                              class="col-6 col-md-6 col-lg-3 mt-2 d-flex justify-content-start"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-lg btn-block cyan-button"
+                              >
+                                3 PM - 5PM
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-hr" />
+
+                      <div class="sched">
+                        <div class="d-flex">
+                          <div class="container overflow-hidden">
+                            <p>QUANTITY</p>
+                            <div class="row">
+                              <div
+                                class="col-6 col-md-6 col-lg-6 d-flex justify-content-start"
+                              >
+                                <input
+                                  type="number"
+                                  id="quantity"
+                                  name="quantity"
+                                  class="custom-input"
+                                  min="1"
+                                  max="5"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="container overflow-hidden">
+                            <p>CANDLES</p>
+                            <div class="row">
+                              <div
+                                class="col-6 col-md-6 col-lg-6 d-flex justify-content-start"
+                              >
+                                <input
+                                  type="number"
+                                  id="candles"
+                                  name="candles"
+                                  class="custom-input"
+                                  min="1"
+                                  max="10"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-hr" />
+
+                      <!-- MESSAGE -->
+                      <div class="sched">
+                        <div class="container overflow-hidden">
+                          <div
+                            class="message-title d-flex justify-content-between"
+                          >
+                            <p>CARD MESSAGE</p>
+                            <p>
+                              [ MAX. 250 WORDS | INCLUDE RECIPIENT’S NAME ]
+                            </p>
+                          </div>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                  <textarea
+                                    class="form-control"
+                                    id="exampleFormControlTextarea1"
+                                    rows="3"
+                                  ></textarea>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-12 col-lg-12">
+                            <button
+                              type="submit"
+                              id="submit"
+                              class="btn btn-block submit-button mt-4"
+                            >
+                              ADD TO CART
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn close-button"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn save-button">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="parallax-section2">
+  <div class="container"><p></p></div>
+</div>
+
+<!---------- shop ------------>
+<div class="shop-container">
+  <span>
+    <p>
+      The Good Shepherd Sweets - Shop Birthday Cakes, Cake in Can & Gift
+      Packs
+    </p>
+  </span>
+  <div class="container text-center">
+    <div class="row justify-content-center align-items-center">
+      <div class="col col-sm-6 col-md-6 col-lg-3 d-flex flex-column mb-4">
+        <a href="menu.html">
+          <img src="./images/new-arrivals.jpg" alt="New Arrivals" />
+          <p class="image-paragraph">NEWLY ADDED</p>
+        </a>
+      </div>
+      <div class="col col-sm-6 col-md-6 col-lg-3 d-flex flex-column mb-4">
+        <a href="menu.html">
+          <img src="./images/Birthday-cake.jpg" alt="New Arrivals" />
+          <p class="image-paragraph">BIRTHDAY CAKES</p>
+        </a>
+      </div>
+      <div class="col col-sm-6 col-md-6 col-lg-3 d-flex flex-column mb-4">
+        <a href="menu.html">
+          <img src="./images/Cake-below-100.jpg" alt="New Arrivals" />
+          <p class="image-paragraph">BELOW 1000</p>
+        </a>
+      </div>
+      <div class="col col-sm-6 col-md-6 col-lg-3 d-flex flex-column mb-4">
+        <a href="menu.html">
+          <img src="./images/Cheesecake.jpg" alt="New Arrivals" />
+          <p class="image-paragraph">CHEESE CAKES</p>
+        </a>
+      </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      <div class="col col-sm-6 col-md-6 col-lg-3 d-flex flex-column mb-4">
+        <a href="menu.html">
+          <img src="./images/Chocolate-cake.jpg" alt="New Arrivals" />
+          <p class="image-paragraph">CHOCOLATE CAKES</p>
+        </a>
+      </div>
+      <div class="col col-sm-6 col-md-6 col-lg-3 d-flex flex-column mb-4">
+        <a href="menu.html">
+          <img src="./images/Local-Classic-cake.jpg" alt="New Arrivals" />
+          <p class="image-paragraph">UBE CAKES</p>
+        </a>
+      </div>
+      <div class="col col-sm-6 col-md-6 col-lg-3 d-flex flex-column mb-4">
+        <a href="menu.html">
+          <img src="./images/Red-velvet-cake.jpg" alt="New Arrivals" />
+          <p class="image-paragraph">RED VELVET</p>
+        </a>
+      </div>
+      <div class="col col-sm-6 col-md-6 col-lg-3 d-flex flex-column mb-4">
+        <a href="menu.html">
+          <img src="./images/Cake-in-can.jpg" alt="New Arrivals" />
+          <p class="image-paragraph">CAKE IN A CAN</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- same day delivery -->
+<!-------------- delivery section -------------->
+<div class="delivery-two-section">
+  <div class="container p-2">
+    <div class="row">
+      <div class="col-sm-6 col-md-3 col-lg-3 d-flex align-items-center">
+        <img src="./images/fast-delivery.png" />
+        <p>SAME DAY CAKE DELIVERY BEFORE 3PM (MON-SAT)</p>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3 d-flex align-items-center">
+        <img src="./images/birthday-cake.png" />
+        <p>DELICIOUS BIRTHDAY CAKES AND MORE</p>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3 d-flex align-items-center">
+        <img src="./images/me-chef.png" />
+        <p>FRESHEST CAKES PREPARED BY MANILA'S BEST BAKERS</p>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3 d-flex align-items-center">
+        <img src="./images/planner.png" />
+        <p>TRENDING CAKE FLAVORS AND LOCAL CLASSICS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------------- Menu ---------------->
+<div class="new-arivals-section">
+  <h1>Birthday Cakes</h1>
+  <div id="carouselExample" class="carousel slide d-none d-sm-block">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="image-wrapper">
+              <a href="menu.html">
+                <img
+                  src="./images/DARKCHOCOLATETIRAMISUCHEESECAKE1.jpg"
+                  alt="..."
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Dark Chocolate Tiramisu</h5>
+              <span class="card-text">
+                <p>Banapple</p>
+                <p style="font-weight: bold">₱2,969.00</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <a href="menu.html">
+                <img src="./images/CakeRush.jpg" alt="..."
+              /></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Cake in Can</h5>
+              <span class="card-text">
+                <p>Mommy Lucy's</p>
+                <p style="font-weight: bold">₱1,099.00</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <a href="menu.html"
+                ><img src="./images/SS_UbeSansRival.jpg" alt="..."
+              /></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Ube Sans Rival Cake</h5>
+              <span class="card-text">
+                <p>Sweet Success</p>
+                <p style="font-weight: bold">₱1,389.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="image-wrapper">
+              <a href="menu.html"
+                ><img
+                  src="./images/AmeliasVeganChocoStrawbCupcakes.jpg"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Vegan Cupcakes (Box of 6)</h5>
+              <span class="card-text">
+                <p>Amelia's Patisserie</p>
+                <p style="font-weight: bold">₱849.00</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <a href="menu.html"
+                ><img src="./images/SS_ChocoSurprise.jpg" alt="..."
+              /></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Suprise Cake</h5>
+              <span class="card-text">
+                <p>Sweet Success</p>
+                <p style="font-weight: bold">₱1,649.00</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <a href="menu.html">
+                <img src="./images/SS_FloralBloom.jpg" alt="..."
+              /></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Floral Bloom Cake</h5>
+              <span class="card-text">
+                <p>Sweet Success</p>
+                <p style="font-weight: bold">₱1,568.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="image-wrapper">
+              <a href="menu.html">
+                <img src="./images/SS_Royalty-Front.jpg"
+              /></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Royalty Cake</h5>
+              <span class="card-text">
+                <p>Sweet Success</p>
+                <p style="font-weight: bold">₱1,549.00</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <a href="menu.html"
+                ><img src="images/red-velvet-cream-cheese.jpg" alt="..."
+              /></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Red Velvet with Creme Cheese</h5>
+              <span class="card-text">
+                <p>Homebake Mom</p>
+                <p style="font-weight: bold">₱949.00</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <a href="menu.html">
+                <img src="images/AP_NutellaFerrero-Cupcake.jpg" alt="..."
+              /></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Nutella Ferrero Cupcakes</h5>
+              <span class="card-text">
+                <p>Amelia's Patisserie</p>
+                <p style="font-weight: bold">₱899</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- second carousel -->
+  <div class="new-arivals-section">
+    <div
+      id="carouselExampleSmallScreen"
+      class="carousel carousel-dark d-sm-none slide"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card mx-auto">
+            <div class="image-wrapper">
+              <img
+                src="./images/DARKCHOCOLATETIRAMISUCHEESECAKE1.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Dark Chocolate Tiramisu</h6>
+              <span class="card-text">
+                <p>Banapple</p>
+                <p>2,969.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="image-wrapper">
+              <img src="./images/CakeRush.jpg" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Chocolate Cake in Can</h6>
+              <span class="card-text">
+                <p>Mommy Lucy's</p>
+                <p>1,099.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="image-wrapper">
+              <img src="./images/SS_UbeSansRival.jpg" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Ube Sans Rival Cake</h6>
+              <span class="card-text">
+                <p>Sweet Success</p>
+                <p>1,389.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="image-wrapper">
+              <img
+                src="./images/AmeliasVeganChocoStrawbCupcakes.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Vegan Choco Cupcakes (b-6)</h6>
+              <span class="card-text">
+                <p>Amelia's Patisserie</p>
+                <p>849.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="image-wrapper">
+              <img src="./images/SS_ChocoSurprise.jpg" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Chocolate Suprise Cake</h6>
+              <span class="card-text">
+                <p>Sweet Success</p>
+                <p>1,649.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="image-wrapper">
+              <img src="./images/SS_FloralBloom.jpg" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Floral Bloom Cake</h6>
+              <span class="card-text">
+                <p>Sweet Success</p>
+                <p>1,568.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="image-wrapper">
+              <img src="./images/SS_Royalty-Front.jpg" />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Royalty Cake</h6>
+              <span class="card-text">
+                <p>Sweet Success</p>
+                <p>1,549.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="image-wrapper">
+              <img src="images/red-velvet-cream-cheese.jpg" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Red Velvet with Creme Cheese</h6>
+              <span class="card-text">
+                <p>Homebake Mom</p>
+                <p>949.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto">
+            <div class="image-wrapper">
+              <img src="images/AP_NutellaFerrero-Cupcake.jpg" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Nutella Ferrero Cupcakes</h6>
+              <span class="card-text text-center">
+                <p>Amelia's Patisserie</p>
+                <p>899</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleSmallScreen"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleSmallScreen"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+
 
 
 <div class="featuredphotos">

@@ -40,13 +40,25 @@ document.getElementById('root').innerHTML = categories.map((item)=>
 
 var cart = [];
 
-function addtocart(a){
+function addtocart(a) {
     cart.push({...categories[a]});
+    saveCartToLocalStorage();
     displaycart();
 }
 
-function deElement(a){
+function saveCartToLocalStorage() {
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
+
+// Load cart data from localStorage
+if (localStorage.getItem('cart')) {
+    cart = JSON.parse(localStorage.getItem('cart'));
+    displaycart();
+}
+
+function deElement(a) {
     cart.splice(a, 1);
+    saveCartToLocalStorage();
     displaycart();
 }
 
