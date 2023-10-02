@@ -86,6 +86,21 @@ header{
     filter: brightness(0.4);
 }
 
+button{
+  border: none;
+  background: black;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  transition: .4s;
+}
+
+span{
+  color: #F94C10;
+  font-size: 90px;
+}
+
   .featuredphotos ul img{
     width: 350px;
     height: 300px;
