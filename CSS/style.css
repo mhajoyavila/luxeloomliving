@@ -38,6 +38,7 @@ header{
 .nav-links li a:hover {
   color: #ff9800; 
 }
+
 .logo{
   padding-left: 25px;
   padding-top: 10px;
@@ -228,6 +229,12 @@ footer {
 
 .links li {
   margin-bottom: 5px;
+}
+
+.links ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
 }
 
 .newsletter form {
