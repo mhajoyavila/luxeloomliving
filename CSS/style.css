@@ -6,10 +6,9 @@ body{
 }
 
 header{
-  background-color: rgba(215, 228, 223, 0.868);
+  /* background-color: rgba(215, 228, 223, 0.868); */
   width: 100%;
   height: 50px;
-
   /* position: fixed; */
   display:flex;
   justify-content: space-between;
@@ -17,7 +16,72 @@ header{
   padding: 10px 20px;
   border-radius: 5px;
   margin-bottom: 10px;
+  /* filter: brightness(0.1); */
 }
+
+/* Navbar */
+.logo img {
+  width: 100px; 
+  height: auto;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+.nav-links li a {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  transition: color 0.3s;
+}
+.nav-links li a:hover {
+  color: #ff9800; 
+}
+.logo{
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.nav-links {
+  flex: 1;
+  text-align: left;
+  color: rgb(101, 97, 97);
+  display: flex;
+}
+.nav-links ul li {
+  display: inline-block;
+  margin: 5px 20px; 
+  padding-right: 30px;
+
+}
+.nav-links ul li a {
+  color: rgb(55, 55, 51);
+  font-size: large;
+  font-weight: bolder;
+}
+.nav-links ul li a::after{
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0%;
+  background-color: #cb8450;
+  transition: .6s;
+}
+.nav-links ul li a:hover:after {
+  width: 100%;
+}
+
+.nav-links ul img{
+  width: 20px;
+  padding-right: 30px;
+}
+/* End of Navbar */
+
+
+
+
+
 
 /* Welcome Section */
 /* ----------------WELCOME SECTION------------------- */
@@ -60,65 +124,10 @@ header{
 /* End of Section */
 
 
-.logo img {
-    width: 100px; 
-    height: auto;
-  }
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding-top: 20px;
-  }
-  .nav-links li a {
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    transition: color 0.3s;
-  }
-  .nav-links li a:hover {
-    color: #ff9800; 
-  }
-  .logo{
-    padding-left: 25px;
-    padding-top: 10px;
-  }
-  .nav-links {
-    flex: 1;
-    text-align: left;
-    color: rgb(101, 97, 97);
-    display: flex;
-  }
-  .nav-links ul li {
-    display: inline-block;
-    margin: 5px 20px; 
-    padding-right: 30px;
-
-  }
-  .nav-links ul li a {
-    color: rgb(55, 55, 51);
-    font-size: large;
-    font-weight: bolder;
-  }
-  .nav-links ul li a::after{
-    content: '';
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 0%;
-    background-color: #cb8450;
-    transition: .6s;
-  }
-  .nav-links ul li a:hover:after {
-    width: 100%;
-  }
-
-  .nav-links ul img{
-    width: 20px;
-    padding-right: 30px;
-  }
 
 
-  .c-item{
+
+.c-item{
     height: 620px;
 }
 .c-img{
@@ -270,7 +279,11 @@ footer {
   background-color: var(--white);
 }
 .treat-section h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  font-size: xx-large;
+
+
 }
 .treat-section span p {
   font-family: 'Pacifico', cursive;
@@ -393,3 +406,5 @@ h4{
   padding: 10px;
   border-radius: 10px;
 }
+
+

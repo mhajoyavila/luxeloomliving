@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/products.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
     <title>Document</title>
 </head>
 <body>
+
+    <header>
+        <div class="logo">
+      <img src="Images/logo.png"  style="width: 100px; height: 100px;"
+      alt="logo"/> 
+      </div>
+        <nav>
+            <div class="nav-links" id="navlinks">
+                <!-- <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> -->
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html"target="_blank">Home</a></li>
+                    <li><a href="products.html" target="_blank">Products</a></li>
+                    <li><a href="addtocart.html" target="_blank">Cart</a></li>
+                    <li><a href="login.html" target="_blank">Login</a></li>
+                </ul>
+            </div>
+        </nav> 
+    </header>
+
     <div class="products-container">
         <ul>
-            <img src="Images/094e0c1463a7b62a047c5e5adeff957c.png" alt="">
+            <img src="Images/094e0c1463a7b62a047c5e5adeff957c.png" alt="" id="photo1">
             <img src="/Images/white-bedrooms-set-3.jpg" alt="">
             <img src="Images/505201-505203.png" alt="">
             <img src="Images/505204-505206.png" alt="">
@@ -32,5 +53,47 @@
 
         </ul>
     </div>
+
+    <!-- arrow up -->
+    <a href="#" class="scroll-top"><i class='bx bxs-chevrons-up'></i></a>
+    <!-- arrow up -->
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                  <p>Email: info@luxeloomliving.com</p>
+                  <p>Phone: +1 (123) 456-7890</p>
+            </div>
+            <div class="social-media">
+                <h3>Social Media</h3>
+                  <ul>
+                      <li><a href="#"><img src="Images/facebook.png" alt="Facebook"></a></li>
+                      <li><a href="#"><img src="Images/twitter.png" alt="Twitter"></a></li>
+                      <li><a href="#"><img src="Images/instagram.png" alt="Instagram"></a></li>
+                  </ul>
+            </div>
+            <div class="links">
+                <h3>Quick Links</h3>
+                  <ul>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms and Conditions</a></li>
+                      <li><a href="#">Return Policy</a></li>
+                  </ul>
+            </div>
+            <div class="newsletter">
+                <h3>Newsletter Signup</h3>
+                  <form id="newsletter-form">
+                      <input type="email" placeholder="Enter your email">
+                      <button type="submit">Subscribe</button>
+                </form>
+            </div>
+          </div>
+      </footer>
+
+
 </body>
 </html>
