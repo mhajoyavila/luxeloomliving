@@ -1,21 +1,21 @@
 const product = [
     {
         id: 0,
-        image: 'image/chair.jpg',
-        title: 'Chair',
-        price: 120,
+        image: 'Images/pillow1.png',
+        title: 'Rosebud Pillow',
+        price: 1000,
     },
     {
         id: 1,
-        image: "image/table.jpg",
-        title: 'Table',
-        price: 150,
+        image: "Images/bedframe.png",
+        title: 'Bed Frame',
+        price: 50000,
     },
     {
         id: 2,
-        image: 'image/DiningSet.webp',
-        title: 'Table',
-        price: 150,
+        image: 'Images/mattress.png',
+        title: 'Matress',
+        price: 50000,
     },
 ];
 const categories = [...new Set(product.map((item)=>
