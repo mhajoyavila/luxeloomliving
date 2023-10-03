@@ -1,0 +1,9 @@
+.products-container{
+    display: flex;;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.products-container img{
+    width: 300px;
+    height: 250px;
+}
