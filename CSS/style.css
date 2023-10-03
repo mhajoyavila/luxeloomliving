@@ -386,3 +386,7 @@ h4{
   height: 50px;
   top: 140px;
 }
+
+.blockquote-footer{
+  padding-top: 10px;
+}
