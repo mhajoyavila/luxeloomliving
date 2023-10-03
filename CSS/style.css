@@ -181,9 +181,6 @@ span{
 
 /* Basic styling for the footer */
 footer {
-  position: absolute;
-  right: 1px;
-  width: 100%;
   background-color: #333;
   color: #fff;
   padding: 20px 0;
@@ -344,7 +341,7 @@ h4{
   right: 2.3rem;
 }
 .scroll-top i{
-  background: rgb(47, 45, 45);
+  background: black;
   color: white;
   font-size: 22px;
   padding: 12px;
