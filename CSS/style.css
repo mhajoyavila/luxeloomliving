@@ -157,7 +157,7 @@ button:hover{
   font-size: 90px;
 } */
 
-  .featuredphotos ul img{
+  .categories ul img{
     width: 350px;
     height: 300px;
     transition:transform 1s;
@@ -167,10 +167,10 @@ button:hover{
     gap: 20px;
     padding: 20px;
   }
-  .featuredphotos ul img:hover{
+  .categories ul img:hover{
   transform: scale(1.2);
   }
-  .featuredphotos{
+  .categories{
     text-align: center;
     align-items: center;
     max-width: 80%;
@@ -282,6 +282,9 @@ footer {
   font-family: 'Roboto Mono', monospace;
   font-weight: bolder;
   font-size: xx-large;
+  background-color: black;
+  color: white;
+  padding: 20px 20px;
 
 
 }
@@ -408,3 +411,25 @@ h4{
 }
 
 
+/* categories button */
+
+.see-more-button {
+  padding: 15px 45px;
+  font-size: 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.see-more-button:hover{
+  background-color: #c98a15fe;
+  box-shadow: 0 0 10px #c98a15fe;
+}
+
+/* End of categories button */
