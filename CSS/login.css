@@ -12,12 +12,12 @@
     transform: translate(-50%, -50%);
     width: 75%;
     height: 550px;
-    background: url(/Images/livingset.png) no-repeat;
+    background: url(/Images/pexels5.webp) no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
     margin-top: 20px;
-    filter: brightness(0.8); 
+
 }
 
 .background{
@@ -27,6 +27,7 @@
     background-size: cover;
     background-position: center;
     filter: blur(10px);
+
 }
 
 .container .content{
@@ -41,32 +42,42 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
+
 }
 
 .content .logo{
     font-size: 30px;
+    filter: brightness(0.1); 
 }
 
 .text-sci h2{
     font-size: 6cqmax;
     color: rgb(0, 0, 0);
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 .text-sci p{
     font-size: 20px;
     margin: 20px 0;
-    color: rgb(0, 0, 0);
-    background-color:rgba(173, 157, 139, 0.655);
+    color: black;
+    /* background-color:rgba(173, 157, 139, 0.655); */
+    font-size: 30px;
+    position: absolute;
+    top: 290px;
     
 }
 
 .content h2 span{
     font-size: 25px;
+    
 }
 
 .social-icons a i{
     font-size: 22px;
-    color: #e4e4e4;
+    color: white;
     margin-right: 10px;
     transition: .5s ease;
 }
@@ -124,6 +135,7 @@
 .form-box h2{
     font-size: 32px;
     text-align: center;
+    filter: brightness(0.8); 
 }
 
 .form-box .input-box{
@@ -132,6 +144,7 @@
     height: 50px;
     border-bottom: 2px solid #e4e4e4;
     margin: 30px 0;
+    filter: brightness(0.1); 
 }
 
 .input-box input{
@@ -144,6 +157,7 @@
     color: #e4e4e4;
     font-weight: 500;
     padding-right: 28px;
+    
 }
 
 .input-box label {
@@ -222,6 +236,8 @@
     text-decoration: underline;
 }
 .logo{
-    width: 100px;
+    width: 150px;
+    height: 150px;
     background-color: rgb(255, 255, 255);
+    background: transparent;
 }

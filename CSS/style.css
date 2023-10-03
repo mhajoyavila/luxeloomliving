@@ -143,10 +143,10 @@ button:hover{
   transform: scale(1.3);
   cursor: pointer;
 }
-span{
-  color: #F94C10;
+/* span{
+  color: brown;
   font-size: 90px;
-}
+} */
 
   .featuredphotos ul img{
     width: 350px;
@@ -352,7 +352,7 @@ h4{
 
 .testimony .card {
   width: 100%;
-}
+}luxyrs
 
 .testimony .card-body {
   width: 100%;
