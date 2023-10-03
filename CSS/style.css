@@ -1,10 +1,10 @@
-
 body{
     max-width: 100%; 
     /* margin-left: 10%;
     margin-right: 10%;  */
     background-color: #FBF7F0;
 }
+
 header{
   background-color: rgba(215, 228, 223, 0.868);
   width: 100%;
@@ -243,7 +243,7 @@ footer {
 
 .parallax-section1 {
   /* The image used */
-  background-image: url(/Images/diningset.png);
+  background-image: url(/Images/royal.png);
 
   /* Set a specific height */
   min-height: 500px;
@@ -260,7 +260,7 @@ footer {
 
 .parallax-section2 {
   /* The image used */
-  background-image: url(/Images/bed.jpg);
+  background-image: url(/Images/royaldining.jpg);
 
   /* Set a specific height */
   min-height: 500px;
@@ -345,4 +345,40 @@ h4{
   color: white;
   font-size: 22px;
   padding: 12px;
+}
+
+/* Testimonials */
+
+.testimony {
+  width: 100%;
+  min-height: 50vh;
+  background-color: var(--pink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimony .card {
+  width: 100%;
+}
+
+.testimony .card-body {
+  width: 100%;
+}
+
+.testimony .card-body img {
+  width: 50px; /* Set the width you want */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.testimony .card p {
+  font-style: italic;
+}
+
+.testimony .carousel-control-next,
+.carousel-control-prev {
+  display: flex;
+  position: absolute;
+  margin-right: -50px;
+  margin-left: -40px;
 }
