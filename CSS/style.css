@@ -1,7 +1,7 @@
 body{
-    max-width: 80%;
+    max-width: 80%; 
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 10%; 
     background-color: #FBF7F0;
 }
 header{
@@ -127,6 +127,9 @@ span{
 
 /* Basic styling for the footer */
 footer {
+  position: absolute;
+  right: 1px;
+  width: 100%;
   background-color: #333;
   color: #fff;
   padding: 20px 0;
