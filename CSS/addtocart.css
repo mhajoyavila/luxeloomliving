@@ -29,6 +29,8 @@
         font-size: 30px;
         font-weight: bold;
         color: white;
+        /* filter: brightness(0.1);  */
+
     }
     
     .cart{
@@ -116,8 +118,10 @@
     }
     
     .images{
-        max-width: 90%;
-        max-height: 90%;
+        /* max-width: 90%;
+        max-height: 90%; */
+        width: 200px;
+        height: 180px;
         object-fit: cover;
         object-position: center;
     }

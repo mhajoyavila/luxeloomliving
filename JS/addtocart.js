@@ -2,19 +2,19 @@ const product = [
     {
         id: 0,
         image: 'Images/pillow1.png',
-        title: 'Rosebud Pillow',
+        title: '<strong>Rosebud Pillow</strong>',
         price: 1000,
     },
     {
         id: 1,
         image: "Images/bedframe.png",
-        title: 'Bed Frame',
+        title: '<strong>Bed Frame</strong>',
         price: 50000,
     },
     {
         id: 2,
         image: 'Images/mattress.png',
-        title: 'Matress',
+        title: '<strong>Matress</strong>',
         price: 50000,
     },
 ];
